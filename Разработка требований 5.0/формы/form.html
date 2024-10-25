@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка заказа (редактирование) v5.0</title>
+    <style>
+        /* Основная стилизация формы */
+        .order-card {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .status {
+            color: green;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"], input[type="number"], select, fieldset {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px 5px 0 0;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .quantity-control input[type="number"] {
+            flex: 1;
+            margin-right: 5px;
+        }
+
+        .quantity-control button {
+            padding: 8px;
+            background-color: #d9534f;
+            color: white;
+            border-radius: 4px;
+        }
+
+        fieldset {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        #image-preview img {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 10px 10px 0 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="order-card">
+        <h1>Карточка заказа (редактирование) v5.0</h1>
+
+        <!-- Статус заказа -->
+        <p>Статус заказа: <span id="order-status" class="status">Новый</span></p>
+
+        <!-- Добавить товар -->
+        <label for="add-product-input">Добавить товар:</label>
+        <input type="text" id="add-product-input" placeholder="Введите название товара">
+        <button id="add-product-button">Добавить</button>
+
+        <!-- Удалить товар -->
+        <label for="remove-product-select">Удалить товар:</label>
+        <select id="remove-product-select">
+            <option>Товар 1</option>
+            <!-- Динамическое заполнение товаров -->
+        </select>
+        <button id="remove-product-button">Удалить</button>
+
+        <!-- Изменить количество единиц товара -->
+        <label for="product-quantity">Изменить количество единиц товара:</label>
+        <div class="quantity-control">
+            <input type="number" id="product-quantity" value="1" min="1">
+            <button id="increase-quantity">+</button>
+            <button id="decrease-quantity">-</button>
+        </div>
+
+        <!-- Адрес -->
+        <label for="address-input">Адрес:</label>
+        <input type="text" id="address-input" placeholder="Введите адрес">
+        <button id="check-address-button">Проверить адрес</button>
+
+        <!-- Стандартизированный адрес -->
+        <label for="standardized-address">Стандартизированный адрес:</label>
+        <input type="text" id="standardized-address" readonly>
+        <label for="validation-code">Код валидации:</label>
+        <input type="text" id="validation-code" readonly>
+
+        <!-- Управление фотографиями -->
+        <fieldset>
+            <legend>Фотографии товара</legend>
+            <label for="product-images">Загрузить изображения:</label>
+            <input type="file" id="product-images" accept="image/jpeg, image/png, image/gif" multiple>
+            <small>Рекомендуемый размер изображения: 400x400 пикселей, форматы: JPG, PNG, GIF, не более 5 МБ.</small>
+            <div id="image-preview">
+                <!-- Здесь будет предпросмотр загруженных изображений -->
+            </div>
+        </fieldset>
+
+        <!-- Кнопки действий -->
+        <div id="button-container">
+            <button id="save-button">Сохранить</button>
+            <button id="assembly-button">Передать на сборку</button>
+        </div>
+    </div>
+
+    <script>
+        // Обработчик загрузки изображений
+        document.getElementById('product-images').addEventListener('change', function(event) {
+            const imagePreview = document.getElementById('image-preview');
+            imagePreview.innerHTML = '';
+
+            Array.from(event.target.files).forEach(file => {
+                if (file.size > 5 * 1024 * 1024) {
+                    alert('Файл слишком большой. Максимальный размер 5 МБ.');
+                    return;
+                }
+
+                const img = document.createElement('img');
+                img.src = URL.createObjectURL(file);
+                img.onload = function() {
+                    if (img.width < 400 || img.height < 400) {
+                        alert('Размер изображения должен быть не менее 400x400 пикселей.');
+                    }
+                };
+                imagePreview.appendChild(img);
+            });
+        });
+
+        // Обработчик проверки адреса
+        document.getElementById('check-address-button').addEventListener('click', function() {
+            // Добавьте логику для проверки адреса с использованием API DaData
+            alert('Проверка адреса...');
+        });
+
+        // Обработчик увеличения количества товара
+        document.getElementById('increase-quantity').addEventListener('click', function() {
+            const quantityInput = document.getElementById('product-quantity');
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+
+        // Обработчик уменьшения количества товара
+        document.getElementById('decrease-quantity').addEventListener('click', function() {
+            const quantityInput = document.getElementById('product-quantity');
+            if (quantityInput.value > 1) {
+                quantityInput.value = parseInt(quantityInput.value) - 1;
+            }
+        });
+    </script>
+</body>
+</html>

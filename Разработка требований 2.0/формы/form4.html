@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка заказа</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .order-info, .order-items {
+            margin-bottom: 20px;
+        }
+        .order-info div {
+            margin-bottom: 10px;
+        }
+        .order-info span {
+            font-weight: bold;
+        }
+        .order-items table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .order-items table, .order-items th, .order-items td {
+            border: 1px solid #ddd;
+        }
+        .order-items th, .order-items td {
+            padding: 10px;
+            text-align: left;
+        }
+        .buttons {
+            text-align: center;
+        }
+        .buttons button {
+            margin: 0 5px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #0056b3;
+        }
+        .buttons .delete {
+            background-color: #dc3545;
+        }
+        .buttons .delete:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Детали заказа</h2>
+        <div class="order-info">
+            <div><span>ID заказа:</span> 1001</div>
+            <div><span>Имя клиента:</span> Иван Иванов</div>
+            <div><span>Дата создания:</span> 01.07.2024</div>
+            <div><span>Статус:</span> Новый</div>
+        </div>
+        <div class="order-items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название товара</th>
+                        <th>Количество</th>
+                        <th>Цена</th>
+                        <th>Итого</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Товар A</td>
+                        <td>2</td>
+                        <td>250.00</td>
+                        <td>500.00</td>
+                    </tr>
+                    <tr>
+                        <td>Товар B</td>
+                        <td>1</td>
+                        <td>700.00</td>
+                        <td>700.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="buttons">
+            <button class="back">Назад</button>
+            <button class="edit">Редактировать</button>
+            <button class="delete">Удалить</button>
+        </div>
+    </div>
+</body>
+</html>

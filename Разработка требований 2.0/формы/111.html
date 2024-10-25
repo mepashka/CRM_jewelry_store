@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка заказа (редактирование)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group button {
+            padding: 10px;
+            width: 100%;
+        }
+        .form-group input[type="text"] {
+            width: calc(100% - 22px);
+        }
+        .form-group button {
+            width: auto;
+        }
+        .buttons-group {
+            display: flex;
+            gap: 10px;
+        }
+        .buttons-group button {
+            flex: 1;
+        }
+        .status-info {
+            margin-bottom: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Карточка заказа (редактирование)</h1>
+
+        <!-- Status Info -->
+        <div class="status-info">
+            <p>Статус заказа: <strong>Новый</strong></p>
+        </div>
+
+        <!-- Add Product -->
+        <div class="form-group">
+            <label for="productSearch">Добавить товар</label>
+            <input type="text" id="productSearch" placeholder="Введите название товара">
+            <button id="addProduct">Добавить</button>
+        </div>
+
+        <!-- Remove Product -->
+        <div class="form-group">
+            <label for="productList">Удалить товар</label>
+            <select id="productList">
+                <option value="product1">Товар 1</option>
+                <option value="product2">Товар 2</option>
+                <!-- Добавьте остальные товары здесь -->
+            </select>
+            <button id="removeProduct">Удалить</button>
+        </div>
+
+        <!-- Change Quantity -->
+        <div class="form-group">
+            <label for="productQuantity">Изменить количество единиц товара</label>
+            <div class="buttons-group">
+                <input type="text" id="productQuantity" value="1">
+                <button id="increaseQuantity">+</button>
+                <button id="decreaseQuantity">-</button>
+            </div>
+        </div>
+
+        <!-- Save Order -->
+        <div class="form-group">
+            <button id="saveOrder">Сохранить</button>
+        </div>
+
+        <!-- Send Order for Assembly -->
+        <div class="form-group">
+            <button id="sendForAssembly">Передать на сборку</button>
+        </div>
+    </div>
+
+    <script>
+        // Здесь можно добавить JavaScript для обработки нажатий на кнопки
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список поставок v1.0</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .filters {
+            margin-bottom: 20px;
+        }
+        label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        input, select {
+            padding: 8px;
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .buttons {
+            text-align: center;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Список поставок v1.0</h1>
+
+        <div class="filters">
+            <label for="supplier-name">Имя поставщика</label>
+            <input type="text" id="supplier-name" name="supplier-name">
+
+            <label for="supply-date-from">Дата поставки с</label>
+            <input type="date" id="supply-date-from" name="supply-date-from">
+
+            <label for="supply-date-to">Дата поставки по</label>
+            <input type="date" id="supply-date-to" name="supply-date-to">
+
+            <label for="status">Статус</label>
+            <select id="status" name="status">
+                <option value="all">Все</option>
+                <option value="pending">В ожидании</option>
+                <option value="shipped">Отправлено</option>
+                <option value="delivered">Доставлено</option>
+            </select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Поставки</th>
+                    <th>Дата поставки</th>
+                    <th>Поставщик</th>
+                    <th>Статус</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody id="supply-list">
+                <tr>
+                    <td>1</td>
+                    <td>2024-08-01</td>
+                    <td>Поставщик 1</td>
+                    <td>В ожидании</td>
+                    <td>
+                        <button type="button">Просмотр</button>
+                        <button type="button">Удалить</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="buttons">
+            <button type="button">Добавить новую поставку</button>
+        </div>
+    </div>
+</body>
+</html>

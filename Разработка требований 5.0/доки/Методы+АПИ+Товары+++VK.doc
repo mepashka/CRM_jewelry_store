@@ -1,0 +1,709 @@
+Date: Mon, 2 Sep 2024 22:39:42 +0000 (UTC)
+Message-ID: <1289602610.3.1725316782054@223f75564261>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_2055420180.1725316782053"
+
+------=_Part_2_2055420180.1725316782053
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=D0=
+=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B =D0=90=D0=9F=D0=98 =D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B + VK</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=D0=B8=
+=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B =D0=90=D0=9F=D0=98 =D0=A2=D0=BE=
+=D0=B2=D0=B0=D1=80=D1=8B + VK</h1>
+    <div class=3D"Section1">
+        <p></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong>=D0=A7=D0=B5=D0=BA=D0=BB=D0=B8=D1=81=D1=82</strong>:</p>
+<ul>
+<li>
+<p>=D0=A3=D0=B1=D0=B5=D0=B4=D0=B8=D1=82=D0=B5=D1=81=D1=8C =D1=87=D1=82=D0=
+=BE =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D1=81=D0=
+=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D1=83=D1=8E=D1=82 =D0=
+=B0=D1=80=D1=85=D0=B8=D1=82=D0=B5=D0=BA=D1=82=D1=83=D1=80=D0=B5: =D0=BC=D0=
+=B8=D0=BA=D1=80=D0=BE=D1=81=D0=B5=D1=80=D0=B2=D0=B8=D1=81 =D0=BE=D0=B1=D1=
+=80=D0=B0=D1=89=D0=B0=D0=B5=D1=82=D1=81=D1=8F =D1=82=D0=BE=D0=BB=D1=8C=D0=
+=BA=D0=BE =D0=BA <strong>=D1=81=D0=B2=D0=BE=D0=B5=D0=B9 </strong>=D0=91=D0=
+=94</p></li>
+<li>
+<p>=D0=A3=D0=B1=D0=B5=D0=B4=D0=B8=D1=82=D0=B5=D1=81=D1=8C, =D1=87=D1=82=D0=
+=BE =D0=B2 =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=
+=BA =D0=B1=D1=8D=D0=BA=D1=83 =D0=BD=D0=B5 =D0=BF=D1=80=D0=BE=D1=81=D0=BE=D1=
+=87=D0=B8=D0=BB=D0=B8=D1=81=D1=8C =D1=82=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=
+=B0=D0=BD=D0=B8=D1=8F =D0=BA =D0=B8=D0=BD=D1=82=D0=B5=D1=80=D1=84=D0=B5=D0=
+=B9=D1=81=D1=83. =D0=9F=D0=BE=D0=BC=D0=BD=D0=B8=D0=BC, <strong>=D0=BF=D0=BE=
+=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D1=82=D0=B5=D0=BB=D1=8C =D0=BD=D0=B5 =
+=D0=B8=D0=BC=D0=B5=D0=B5=D1=82 =D0=B4=D0=BE=D1=81=D1=82=D1=83=D0=BF=D0=B0 =
+=D0=BA =D0=B1=D1=8D=D0=BA=D1=83.</strong></p></li>
+</ul>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p>
+</div>
+</div>
+<h1 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=
+=D0=BD=D0=B8=D0=B51.=D0=9C=D1=8D=D0=BF=D0=BF=D0=B8=D0=BD=D0=B3=D0=B4=D0=B0=
+=D0=BD=D0=BD=D1=8B=D1=85=D0=BE=D0=B1=D1=8A=D0=B5=D0=BA=D1=82=D0=BE=D0=B2JSO=
+N=D0=BD=D0=B0=D0=BC=D0=BE=D0=B4=D0=B5=D0=BB=D1=8C=D0=91=D0=94">=D0=9F=D1=80=
+=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 1. =D0=9C=D1=8D=D0=BF=D0=
+=BF=D0=B8=D0=BD=D0=B3 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=85 =D0=BE=D0=B1=D1=
+=8A=D0=B5=D0=BA=D1=82=D0=BE=D0=B2 JSON =D0=BD=D0=B0 =D0=BC=D0=BE=D0=B4=D0=
+=B5=D0=BB=D1=8C =D0=91=D0=94</h1>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p>
+</div>
+</div>
+<h1 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=
+=D0=BD=D0=B8=D0=B52.=D0=A2=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=
+=D1=8F=D0=BF=D0=BE=D0=B8=D0=BD=D1=82=D0=B5=D0=B3=D1=80=D0=B0=D1=86=D0=B8=D0=
+=B8=D1=81VK">=D0=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 2=
+. =D0=A2=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=BF=D0=BE=
+ =D0=B8=D0=BD=D1=82=D0=B5=D0=B3=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D1=81 VK</h1=
+>
+<h2 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=
+=D1=8C=D1=82=D0=BE=D0=BA=D0=B5=D0=BD">=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=
+=D1=82=D1=8C =D1=82=D0=BE=D0=BA=D0=B5=D0=BD</h2>
+<p>=D0=94=D0=BB=D1=8F =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=
+=8F =D1=82=D0=BE=D0=BA=D0=B5=D0=BD=D0=B0 =D0=B0=D0=B2=D1=82=D0=BE=D1=80=D0=
+=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=
+=B4=D0=B8=D0=BC=D0=BE =D0=BE=D0=B1=D1=80=D0=B0=D1=82=D0=B8=D1=82=D1=8C=D1=
+=81=D1=8F =D0=BF=D0=BE =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D1=83:<br><code>https=
+://oauth.vk.com/authorize?client_id=3D51498260&amp;display=3Dpage&amp;redir=
+ect_uri=3Dhttps://oauth.vk.com/authorize&amp;scope=3Dmarket,photos&amp;resp=
+onse_type=3Dtoken&amp;v=3D5.131&amp;state=3D123456</code></p>
+<p>=D0=B3=D0=B4=D0=B5:</p>
+<ul>
+<li>
+<p><code>client_id </code>- =D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=
+=B8=D0=BA=D0=B0=D1=82=D0=BE=D1=80 =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=
+=B5=D0=BD=D0=B8=D1=8F</p></li>
+<li>
+<p><code>scope </code>- =D0=BF=D1=80=D0=B0=D0=B2=D0=B0 =D0=B4=D0=BE=D1=81=
+=D1=82=D1=83=D0=BF=D0=B0 (=D1=81=D0=BC. <a class=3D"external-link" data-car=
+d-appearance=3D"inline" href=3D"https://cherepkabana.atlassian.net/wiki/spa=
+ces/gFPTK3s9ojxr/pages/99175/VK#%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%=
+D0%BD%D0%B8%D0%B5-3.-%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5=
+%D0%BC%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B" =
+rel=3D"nofollow">https://cherepkabana.atlassian.net/wiki/spaces/gFPTK3s9ojx=
+r/pages/99175/VK#%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%=
+B5-3.-%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0=
+%B5-%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B</a> )</p></li>
+</ul>
+<p>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=B2=D1=81=D0=B5=D1=
+=85 =D0=BF=D0=B0=D1=80=D0=B0=D0=BC=D0=B5=D1=82=D1=80=D0=BE=D0=B2 =D1=81=D0=
+=BC. =D0=B2 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=
+=B8=D0=B8: <a class=3D"external-link" data-card-appearance=3D"inline" href=
+=3D"https://dev.vk.com/api/access-token/authcode-flow-user" rel=3D"nofollow=
+">https://dev.vk.com/api/access-token/authcode-flow-user</a></p>
+<p>=D0=9F=D0=BE=D1=81=D0=BB=D0=B5 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=
+=B5=D0=BD=D0=B8=D1=8F =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0, =D0=BD=D0=
+=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE =D0=BF=D0=BE=D0=BB=D1=
+=83=D1=87=D0=B8=D1=82=D1=8C =D0=B8 =D1=80=D0=B0=D0=B7=D0=BE=D0=B1=D1=80=D0=
+=B0=D1=82=D1=8C =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=BD=D1=83=D1=8E =D1=81=D1=
+=82=D1=80=D0=BE=D0=BA=D1=83 - =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=
+=B0=D1=82 =D1=80=D0=B5=D0=B4=D0=B8=D1=80=D0=B5=D0=BA=D1=82=D0=B0:</p>
+<ul>
+<li>
+<p><code>access_token</code> - =D1=82=D0=BE=D0=BA=D0=B5=D0=BD =D0=B0=D0=B2=
+=D1=82=D0=BE=D1=80=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8;</p></li>
+<li>
+<p><code>expires_in</code> - =D1=81=D1=80=D0=BE=D0=BA =D0=B6=D0=B8=D0=B7=D0=
+=BD=D0=B8 =D1=82=D0=BE=D0=BA=D0=B5=D0=BD=D0=B0 =D0=B0=D0=B2=D1=82=D0=BE=D1=
+=80=D0=B8=D0=B7=D0=B0=D1=86=D0=B8=D0=B8 =D0=B2 =D1=81=D0=B5=D0=BA=D1=83=D0=
+=BD=D0=B4=D0=B0=D1=85.</p></li>
+</ul>
+<p>=D0=9F=D0=BE=D0=BA=D0=B0 =D1=81=D1=80=D0=BE=D0=BA =D0=B6=D0=B8=D0=B7=D0=
+=BD=D0=B8 =D1=82=D0=BE=D0=BA=D0=B5=D0=BD=D0=B0 =D0=BD=D0=B5 =D0=B7=D0=B0=D0=
+=BA=D0=BE=D0=BD=D1=87=D0=B8=D0=BB=D1=81=D1=8F =D0=B5=D0=B3=D0=BE =D0=BC=D0=
+=BE=D0=B6=D0=BD=D0=BE =D0=B8=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=
+=B2=D0=B0=D1=82=D1=8C =D0=B4=D0=BB=D1=8F =D0=B7=D0=B0=D0=B3=D1=80=D1=83=D0=
+=B7=D0=BA=D0=B8 =D0=BD=D0=B5=D1=81=D0=BA=D0=BE=D0=BB=D1=8C=D0=BA=D0=B8=D1=
+=85 =D0=BA=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=B5=D0=BA.</p>
+<h2 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=
+=D1=8CURL=D0=B4=D0=BB=D1=8F=D0=B7=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B8=
+=D1=84=D0=BE=D1=82=D0=BE=D0=B3=D1=80=D0=B0=D1=84=D0=B8=D0=B8">=D0=9F=D0=BE=
+=D0=BB=D1=83=D1=87=D0=B8=D1=82=D1=8C URL =D0=B4=D0=BB=D1=8F =D0=B7=D0=B0=D0=
+=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B8 =D1=84=D0=BE=D1=82=D0=BE=D0=B3=D1=80=D0=
+=B0=D1=84=D0=B8=D0=B8</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"28=
+60cec4-d51e-4546-8622-311dff2f3e72" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 224.0px;">
+<col style=3D"width: 456.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=D1=
+=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9A=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B5 =D0=BE=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B0</strong></=
+p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=B2=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0 =D0=B2=D1=
+=8B=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=
+=B8=D1=8F</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=9F=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D1=82=
+=D1=8C=D1=84=D0=BE=D1=82=D0=BE=D0=BD=D0=B0=D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=
+=80">=D0=9F=D0=B5=D1=80=D0=B5=D0=B4=D0=B0=D1=82=D1=8C =D1=84=D0=BE=D1=82=D0=
+=BE =D0=BD=D0=B0 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bd=
+c102f9-29d3-436c-ad3d-09d61c45c88c" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 224.0px;">
+<col style=3D"width: 456.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=D1=
+=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9A=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B5 =D0=BE=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B0</strong></=
+p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=B2=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0 =D0=B2=D1=
+=8B=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=
+=B8=D1=8F</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B8=
+=D1=82=D1=8C=D1=84=D0=BE=D1=82=D0=BE=D0=BD=D0=B0=D1=81=D0=B5=D1=80=D0=B2=D0=
+=B5=D1=80=D0=B5">=D0=A1=D0=BE=D1=85=D1=80=D0=B0=D0=BD=D0=B8=D1=82=D1=8C =D1=
+=84=D0=BE=D1=82=D0=BE =D0=BD=D0=B0 =D1=81=D0=B5=D1=80=D0=B2=D0=B5=D1=80=D0=
+=B5</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a3=
+528471-eb55-491b-adc5-508611f2ed67" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 224.0px;">
+<col style=3D"width: 456.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=D1=
+=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9A=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B5 =D0=BE=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B0</strong></=
+p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=B2=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0 =D0=B2=D1=
+=8B=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=
+=B8=D1=8F</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C=
+=D0=BA=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=BA=D1=83=D1=82=D0=BE=D0=B2=D0=B0=D1=
+=80=D0=B0">=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D1=82=D1=8C =D0=BA=D0=B0=D1=80=D1=
+=82=D0=BE=D1=87=D0=BA=D1=83 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"90=
+6a2472-d03d-42b4-9497-ccf8dec7bd12" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 224.0px;">
+<col style=3D"width: 456.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=D1=
+=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9A=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B5 =D0=BE=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B0</strong></=
+p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=B2=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0 =D0=B2=D1=
+=8B=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=
+=B8=D1=8F</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=A0=D0=B5=D0=B4=D0=B0=D0=BA=D1=82=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C=D0=BA=D0=B0=D1=80=D1=82=D0=BE=D1=87=D0=
+=BA=D1=83=D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0">=D0=A0=D0=B5=D0=B4=D0=B0=D0=
+=BA=D1=82=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =D0=BA=D0=B0=D1=80=D1=
+=82=D0=BE=D1=87=D0=BA=D1=83 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e1=
+2d49d0-ca83-403d-9d7b-2141b1b18ec9" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 224.0px;">
+<col style=3D"width: 456.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=D1=
+=8B=D0=B9 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9A=D1=80=D0=B0=D1=82=D0=BA=D0=BE=D0=B5 =D0=BE=D0=BF=D0=B8=D1=
+=81=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B0</strong></=
+p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=
+=B2=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=9E=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0 =D0=B2=D1=
+=8B=D1=85=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=B4=D0=B0=D0=BD=D0=BD=D1=8B=D1=
+=85</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#f4f5f7" class=3D"confluenceTd">
+<p><strong>=D0=94=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=86=D0=
+=B8=D1=8F</strong></p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>=D0=97=D0=B0=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D1=8C&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"id-=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB_=D0=9C=D0=B5=D0=BB=D1=8C=D0=BD=
+=D0=B8=D0=BA=D0=9C=D0=B5=D1=82=D0=BE=D0=B4=D1=8B=D0=90=D0=9F=D0=98=D0=A2=D0=
+=BE=D0=B2=D0=B0=D1=80=D1=8B+VK-=D0=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=
+=D0=BD=D0=B8=D0=B53.=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=
+=D0=BC=D1=8B=D0=B5=D0=BA=D0=BE=D0=BD=D1=81=D1=82=D0=B0=D0=BD=D1=82=D1=8B">=
+=D0=9F=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 3. =D0=98=D1=
+=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B5=D0=BC=D1=8B=D0=B5 =D0=BA=D0=
+=BE=D0=BD=D1=81=D1=82=D0=B0=D0=BD=D1=82=D1=8B</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"9e=
+030283-4b14-4936-b8a8-ee6e5e398ef0" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>=D0=9D=D0=B0=D0=B8=D0=BC=D0=B5=D0=BD=D0=BE=D0=B2=D0=B0=D0=BD=D0=
+=B8=D0=B5</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p><strong>=D0=9E=D0=BF=D0=B8=D1=81=D0=B0=D0=BD=D0=B8=D0=B5</strong></p></t=
+h>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,#f4f5=
+f7)" class=3D"confluenceTh">
+<p>&nbsp;</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Group_ID</p></td>
+<td class=3D"confluenceTd">
+<p>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=
+=D1=80 =D0=B3=D1=80=D1=83=D0=BF=D0=BF=D1=8B =D0=B2 VK, =D0=B3=D0=B4=D0=B5 =
+=D1=80=D0=B0=D0=B7=D0=BC=D0=B5=D1=89=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D1=82=
+=D0=BE=D0=B2=D0=B0=D1=80=D1=8B</p></td>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Client_ID</p></td>
+<td class=3D"confluenceTd">
+<p>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=
+=D1=80 =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F</p></td=
+>
+<td data-highlight-colour=3D"#fff0b3" class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Category_ID</p></td>
+<td class=3D"confluenceTd">
+<p>=D0=98=D0=B4=D0=B5=D0=BD=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82=D0=BE=
+=D1=80 =D0=BA=D0=B0=D1=82=D0=B5=D0=B3=D0=BE=D1=80=D0=B8=D0=B8 =D1=82=D0=BE=
+=D0=B2=D0=B0=D1=80=D0=B0. =D0=9E=D0=BF=D1=80=D0=B5=D0=B4=D0=B5=D0=BB=D1=8F=
+=D0=B5=D1=82=D1=81=D1=8F =D0=BF=D1=80=D0=B8 =D0=BF=D0=BE=D0=BC=D0=BE=D1=89=
+=D0=B8 =D0=B7=D0=B0=D0=BF=D1=80=D0=BE=D1=81=D0=B0 <code>market.getCategorie=
+s</code>.</p></td>
+<td class=3D"confluenceTd">
+<p>&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2_2055420180.1725316782053--

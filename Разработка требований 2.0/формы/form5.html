@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка заказа</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .order-details, .order-items {
+            margin-bottom: 20px;
+        }
+        .order-details div, .order-items th, .order-items td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        .order-items th {
+            text-align: left;
+        }
+        .order-items td {
+            text-align: right;
+        }
+        .buttons {
+            text-align: center;
+        }
+        .buttons button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #0056b3;
+        }
+        .delete-btn {
+            background-color: #dc3545;
+        }
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Детали заказа</h1>
+
+        <div class="order-details">
+            <div><strong>ID заказа:</strong> 1001</div>
+            <div><strong>Имя клиента:</strong> Иван Иванов</div>
+            <div><strong>Дата создания:</strong> 01.07.2024</div>
+            <div><strong>Статус:</strong> Новый</div>
+        </div>
+
+        <h2>Товары в заказе</h2>
+        <table class="order-items">
+            <thead>
+                <tr>
+                    <th>Название товара</th>
+                    <th>Количество</th>
+                    <th>Цена</th>
+                    <th>Итого</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Товар A</td>
+                    <td>2</td>
+                    <td>250.00</td>
+                    <td>500.00</td>
+                    <td><button class="delete-btn">Удалить</button></td>
+                </tr>
+                <tr>
+                    <td>Товар B</td>
+                    <td>1</td>
+                    <td>700.00</td>
+                    <td>700.00</td>
+                    <td><button class="delete-btn">Удалить</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="buttons">
+            <button>Назад</button>
+            <button>Редактировать</button>
+            <button class="delete-btn">Удалить</button>
+            <button>Сохранить заказ</button>
+            <button>Передать на сборку</button>
+        </div>
+    </div>
+</body>
+</html>

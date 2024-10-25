@@ -1,0 +1,26 @@
+<Product>
+    <SKU>78456434</SKU>
+    <Composition>
+        <Material>Золото</Material>
+        <Fineness>585</Fineness>
+        <Type>Серьги</Type>
+        <Gender>Девочки</Gender>
+        <Brand>SLAVA GORSHKOV Jewelry</Brand>
+        <CountryOfOrigin>Россия</CountryOfOrigin>
+        <Price>6945</Price>
+    </Composition>
+    <Inserts>
+        <Insert>
+            <Stone>Фианит</Stone>
+            <Size>1 карат</Size>
+        </Insert>
+        <Insert>
+            <Stone>Топаз</Stone>
+            <Size>1 карат</Size>
+        </Insert>
+        <Insert>
+            <Stone>Корунд синтетический</Stone>
+            <Size>2 карата</Size>
+        </Insert>
+    </Inserts>
+</Product>

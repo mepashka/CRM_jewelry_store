@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список товаров для добавления в заказ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .search-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .search-container .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+        .search-container label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .search-container input[type="text"], 
+        .search-container select, 
+        .search-container input[type="date"], 
+        .search-container input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .search-container button {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .search-container button:hover {
+            background-color: #0056b3;
+        }
+        .product-list {
+            margin-top: 20px;
+        }
+        .product-list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .product-list table, 
+        .product-list th, 
+        .product-list td {
+            border: 1px solid #ddd;
+        }
+        .product-list th, 
+        .product-list td {
+            padding: 10px;
+            text-align: left;
+        }
+        .product-list th {
+            background-color: #f4f4f4;
+        }
+        .actions {
+            text-align: right;
+            margin-top: 10px;
+        }
+        .actions button {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .actions button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Список товаров для добавления в заказ</h1>
+        </div>
+
+        <!-- Форма поиска и фильтрации -->
+        <div class="search-container">
+            <div class="form-group">
+                <label for="productID">ID товара:</label>
+                <input type="number" id="productID" placeholder="Введите ID товара">
+            </div>
+
+            <div class="form-group">
+                <label for="productStatus">Статус товара:</label>
+                <select id="productStatus">
+                    <option value="">Все статусы</option>
+                    <option value="available">В наличии</option>
+                    <option value="out_of_stock">Нет в наличии</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dateMin">Дата добавления с:</label>
+                <input type="date" id="dateMin">
+            </div>
+
+            <div class="form-group">
+                <label for="dateMax">Дата добавления по:</label>
+                <input type="date" id="dateMax">
+            </div>
+
+            <div class="form-group">
+                <label for="minPrice">Минимальная цена:</label>
+                <input type="number" step="0.01" id="minPrice" placeholder="0.00">
+            </div>
+
+            <div class="form-group">
+                <label for="maxPrice">Максимальная цена:</label>
+                <input type="number" step="0.01" id="maxPrice" placeholder="1000.00">
+            </div>
+
+            <div class="form-group">
+                <label for="customerName">Имя клиента:</label>
+                <input type="text" id="customerName" placeholder="Введите имя клиента">
+            </div>
+
+            <div class="form-group">
+                <button id="searchButton">Поиск</button>
+            </div>
+        </div>
+
+        <!-- Список товаров -->
+        <div class="product-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название товара</th>
+                        <th>Цена</th>
+                        <th>Категория</th>
+                        <th>Статус</th>
+                        <th>Дата добавления</th>
+                        <th>Действие</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    <!-- Примеры строк товара -->
+                    <tr>
+                        <td>Товар 1</td>
+                        <td>Цена 1</td>
+                        <td>Категория 1</td>
+                        <td>В наличии</td>
+                        <td>2024-07-01</td>
+                        <td><button class="add-button">Добавить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Товар 2</td>
+                        <td>Цена 2</td>
+                        <td>Категория 2</td>
+                        <td>В наличии</td>
+                        <td>2024-07-02</td>
+                        <td><button class="add-button">Добавить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Товар 3</td>
+                        <td>Цена 3</td>
+                        <td>Категория 3</td>
+                        <td>Нет в наличии</td>
+                        <td>2024-07-03</td>
+                        <td><button class="add-button" disabled>Добавить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Товар 4</td>
+                        <td>Цена 4</td>
+                        <td>Категория 4</td>
+                        <td>В наличии</td>
+                        <td>2024-07-04</td>
+                        <td><button class="add-button">Добавить</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Действия -->
+        <div class="actions">
+            <button id="closeButton">Закрыть</button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript для обработки поиска и фильтрации товаров
+        document.getElementById('searchButton').addEventListener('click', function() {
+            performSearch();
+        });
+
+        document.getElementById('productID').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        function performSearch() {
+            var productID = document.getElementById('productID').value;
+            var status = document.getElementById('productStatus').value;
+            var dateMin = document.getElementById('dateMin').value;
+            var dateMax = document.getElementById('dateMax').value;
+            var minPrice = document.getElementById('minPrice').value;
+            var maxPrice = document.getElementById('maxPrice').value;
+            var customerName = document.getElementById('customerName').value;
+
+            // Логика поиска товара с учетом фильтров
+            // Пример:
+            // - Отправка GET запроса на сервер с параметрами поиска
+            // - Обновление tbody с id="productTableBody" новыми строками товара
+        }
+
+        document.getElementById('productTableBody').addEventListener('click', function(event) {
+            if (event.target && event.target.classList.contains('add-button')) {
+                var row = event.target.closest('tr');
+                var productName = row.cells[0].innerText;
+                // Логика добавления товара в заказ
+                // Пример:
+                // - Проверка наличия товара на складе
+                // - Если товар в наличии, добавляем его в заказ
+                // - Если товара нет в наличии, выводим сообщение об ошибке
+            }
+        });
+
+        document.getElementById('closeButton').addEventListener('click', function() {
+            // Логика закрытия формы
+            // Пример:
+            // - Закрытие модального окна или переход к предыдущей странице
+        });
+    </script>
+</body>
+</html>

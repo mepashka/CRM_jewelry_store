@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .order-info {
+            margin-bottom: 20px;
+        }
+        .order-info label {
+            font-weight: bold;
+        }
+        .order-info p {
+            margin: 5px 0;
+        }
+        .items-table {
+            margin-bottom: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .items-table th, .items-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .items-table th {
+            background-color: #f2f2f2;
+        }
+        .actions {
+            text-align: right;
+        }
+        .actions button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+        }
+        .actions .edit {
+            background-color: #ffc107;
+        }
+        .actions .delete {
+            background-color: #dc3545;
+        }
+        .actions .back {
+            background-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Детали заказа</h1>
+        <div class="order-info">
+            <label>ID заказа:</label>
+            <p>1001</p>
+            <label>Имя клиента:</label>
+            <p>Иван Иванов</p>
+            <label>Дата создания:</label>
+            <p>01.07.2024</p>
+            <label>Статус:</label>
+            <p>Новый</p>
+        </div>
+        <h2>Товары в заказе</h2>
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th>Название товара</th>
+                    <th>Количество</th>
+                    <th>Цена</th>
+                    <th>Итого</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Товар A</td>
+                    <td>2</td>
+                    <td>250.00</td>
+                    <td>500.00</td>
+                </tr>
+                <tr>
+                    <td>Товар B</td>
+                    <td>1</td>
+                    <td>700.00</td>
+                    <td>700.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="actions">
+            <button class="back">Назад</button>
+            <button class="edit">Редактировать</button>
+            <button class="delete">Удалить</button>
+        </div>
+    </div>
+</body>
+</html>

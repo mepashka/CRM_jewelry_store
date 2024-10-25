@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order List Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .filter {
+            margin-bottom: 20px;
+        }
+        .filter input, .filter select {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        table th {
+            background-color: #f2f2f2;
+        }
+        .actions button {
+            padding: 8px 12px;
+            margin-right: 5px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            background-color: #007bff;
+            cursor: pointer;
+        }
+        .actions button.edit {
+            background-color: #ffc107;
+        }
+        .actions button.delete {
+            background-color: #dc3545;
+        }
+        .new-order {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .new-order button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Список заказов</h1>
+        <div class="filter">
+            <input type="text" placeholder="Поиск по заказам...">
+            <select>
+                <option value="all">Все статусы</option>
+                <option value="new">Новый</option>
+                <option value="processing">В обработке</option>
+                <option value="completed">Завершен</option>
+            </select>
+            <button>Применить фильтр</button>
+        </div>
+        <div class="new-order">
+            <button>Создать новый заказ</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID заказа</th>
+                    <th>Имя клиента</th>
+                    <th>Дата создания</th>
+                    <th>Статус</th>
+                    <th>Сумма</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Иван Иванов</td>
+                    <td>01.07.2024</td>
+                    <td>Новый</td>
+                    <td>500.00</td>
+                    <td class="actions">
+                        <button>Просмотр</button>
+                        <button class="edit">Редактировать</button>
+                        <button class="delete">Удалить</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Анна Смирнова</td>
+                    <td>02.07.2024</td>
+                    <td>В обработке</td>
+                    <td>1200.00</td>
+                    <td class="actions">
+                        <button>Просмотр</button>
+                        <button class="edit">Редактировать</button>
+                        <button class="delete">Удалить</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
